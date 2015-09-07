@@ -1,0 +1,79 @@
+/*全局*/
+html, body {
+    position: relative;
+    height: 100%;
+    background-color: #46C626;
+}
+body {
+    font-family: 微软雅黑, Arial;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+img{
+	vertical-align: middle;
+}
+audio{
+	visibility: hidden;
+}
+#loading{
+	position: relative;
+	text-align: center;
+	margin-top: 200px;
+}
+#sign{
+	position: absolute;
+	right: 10%;
+	bottom: 100px;
+	font-size: 15px;
+}
+.swiper-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+}
+.ani{
+	visibility: hidden;
+}
+.swiper-slide{
+	overflow: hidden;
+}
+.swiper-pagination-bullet-active{
+	background-color: #fff;
+	opacity: 0.8;
+}
+.arrow{
+	position: absolute;
+	bottom: 30px;
+	width: 40px;
+	cursor: pointer;
+	z-index: 3;
+	animation:fadeInUp 1s infinite;
+	-webkit-animation:fadeInUp 1s infinite;
+}
+.centerBlock{
+	position: relative;
+	margin: auto;
+	margin-top: 200px;
+	width: 90%;
+}
+.fontSize25{
+	font-size: 25px;
+}
+.fontSize30{
+	font-size: 30px;
+}
+.strong{
+	font-weight: 900;
+}
+.yellow{
+	color: yellow;
+}
+.red{
+	color: #F7432F;
+}
+.center{
+    text-align: center;
+}
